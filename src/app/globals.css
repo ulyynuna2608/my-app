@@ -49,38 +49,43 @@ table {
 
 /*CSS do Projeto*/
 
+html {
+	font-size: 62.5%;
+}
+
 body {
 	display: flex;
-	align-items: center;
 	flex-direction: column;
+	align-items: center;
 	font-size: 1.6rem;
 }
 
 h1 {
-  font-size: large;
+  font-size: 4rem;
 }
 h2 {
-  font-size: medium;
+  font-size: 2.8rem;
 }
 h3 {
-  font-size: small;
+  font-size: 2rem;
+  font-weight: bold;
 }
-
-label {
+p {
 	font-size: 2rem;
 }
-
-li{
-	margin: 1rem
+label {
+	font-size: 1.6;
 }
-@media screeen and (max-whidth: 700px) {
-	htlm {
+li{
+	margin: 1rem;
+}
+@media screen and (max-whidth: 780px) {
+	htlm { 
 		font-size: 50%;
 	}
 }
-
 @media screen and (max-whidth: 540px) {
-	htkm {
+	htlm { 
 		font-size: 30%;
 	}
 }
